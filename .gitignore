@@ -1,0 +1,7 @@
+*.parquet
+*.csv
+*.json
+*.txt
+*.pdf
+*.docx
+*.log

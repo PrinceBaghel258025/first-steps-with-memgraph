@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "parquet-memgraph"
+version = "0.1.0"
+description = ""
+authors = ["Prince Baghel <pkbghl90@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.10"
+gqlalchemy = "^1.6.0"
+pyarrow = "^17.0.0"
+pandas = "^2.2.3"
+backoff = "^2.2.1"
+sentence-transformers = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
